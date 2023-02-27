@@ -59,21 +59,21 @@ class UpdateEmployeeComponent extends Component {
                    <div className = "container">
                         <div className = "row">
                             <div className = "card col-md-6 offset-md-3 offset-md-3">
-                                <h3 className="text-center">Update Employee</h3>
+                                <h3 className="text-center">Update Book Details</h3>
                                 <div className = "card-body">
                                     <form>
                                         <div className = "form-group">
-                                            <label> First Name: </label>
+                                            <label> Title: </label>
                                             <input placeholder="First Name" name="firstName" className="form-control" 
                                                 value={this.state.firstName} onChange={this.changeFirstNameHandler}/>
                                         </div>
                                         <div className = "form-group">
-                                            <label> Last Name: </label>
+                                            <label> Description: </label>
                                             <input placeholder="Last Name" name="lastName" className="form-control" 
                                                 value={this.state.lastName} onChange={this.changeLastNameHandler}/>
                                         </div>
                                         <div className = "form-group">
-                                            <label> Email Id: </label>
+                                            <label> IsAvailable: </label>
                                             <input placeholder="Email Address" name="emailId" className="form-control" 
                                                 value={this.state.emailId} onChange={this.changeEmailHandler}/>
                                         </div>
